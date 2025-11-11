@@ -1,0 +1,38 @@
+# Node modules
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Build directories
+dist/
+build/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+*.keystore
+
+# iOS
+ios/Pods/
+ios/build/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata/
+
+# Misc
+*.swp
+*.swo
+
