@@ -562,7 +562,7 @@ const showStartTimepicker = () => {
           onChangeText={setTitle}
           maxLength={30}
         />
-        <Text style={styles.characterCounter}>
+        <Text style={[styles.characterCounter,title.length>=20 && styles.characterCounterWarning,title.length>=30 && styles.characterCounterDanger]}>
         {30 - title.length} characters remaining
       </Text>
 
